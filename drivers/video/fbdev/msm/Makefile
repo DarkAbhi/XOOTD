@@ -76,6 +76,9 @@ subdir-ccflags-y += \
 	-Wno-duplicate-decl-specifier
 
 
-# TODO: remove me b/62057517
+# TODO: remove me b/62058353
 subdir-ccflags-y += \
-	-Wno-header-guard
+	-Wno-header-guard \
+	-Wno-parentheses-equality \
+	-Wno-duplicate-decl-specifier
+
